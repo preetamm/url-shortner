@@ -1,0 +1,49 @@
+.add-shortlink {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 55vh;
+    margin-left: 10px;
+    border: 1px solid rgb(195, 164, 164);
+    border-radius: 2px;
+
+}
+
+.add-short-link {
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 50px;
+
+    .add-link-form {
+
+
+        display: flex;
+        flex-direction: column;
+
+
+        .add-link-input {
+            align-self: center;
+            background: none;
+            background-color: white;
+            padding: 10px 10px 10px 5px;
+            border: none;
+            border-bottom: 1px solid blue;
+
+            &:focus {
+
+                outline: none;
+            }
+
+        }
+
+        .add-button {
+            align-self: center;
+            margin-top: 30px;
+            padding: 0 20px;
+            color: white;
+        }
+
+    }
+}

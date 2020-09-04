@@ -1,0 +1,66 @@
+.wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px 10px;
+
+
+    .profile {
+
+        flex-grow: 1;
+        margin-right: 10px;
+    }
+
+    .links-container {
+        border-radius: 5px;
+        flex-grow: 3;
+        overflow-y: scroll;
+        padding: 0 10px;
+        height: 84vh;
+        background-color: rgb(207, 191, 191);
+
+        .shortlink {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding: 3px;
+            background-color: white;
+            margin-top: 7px;
+
+            .shorterlink {
+
+                color: blue;
+                width: 10vw;
+                flex-grow: 0;
+                align-self: center;
+            }
+
+            .originallink {
+
+                width: 10vw;
+                flex-grow: 0;
+
+                .linkx {
+                    overflow-x: scroll;
+
+                }
+            }
+
+            .delete-button {
+                align-self: center;
+            }
+
+
+        }
+
+
+
+
+
+
+
+    }
+
+}
